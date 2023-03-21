@@ -1,0 +1,19 @@
+@import'custom';
+
+
+#logo{
+    height: 60px;
+}
+
+body{
+    padding-top: 86px;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+figure{
+    background: linear-gradient(#ffab4b,#ce6a28,#f56b1b);
+}
