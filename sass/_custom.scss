@@ -3,17 +3,23 @@
 
 // Include any default variable overrides here (though functions won't be available)
 /* definindo variáveis para cores */
-$primary: #ff8a04;
+$primary: #f87620;
 $secondary: #c0824f;
 $tertiary: #3f2519;
-$success: #ff6600;
+$success: #ff7300;
 $info: #A1C7E0;
 $warning: #eb8634;
 $danger: #E3371E;
 $light: #ecf1f1;
 $dark: #232424;
-$link-color: #7e1a1a;
-$link-hover-color: #fff;
+$link-color: #e68618;
+$link-hover-color: #b8623a;
+$list-group-color: #000000;
+$list-group-bg:#eb8634;
+$list-group-border-color:#ff7300;
+$list-group-hover-bg:#ec7c48;
+$list-group-active-color:#000000;
+$list-group-active-bg:#c2470e;
 
 $theme-colors: (
   "primary":    $primary,
@@ -27,6 +33,12 @@ $theme-colors: (
   "dark":       $dark,
   "link-color": $link-color,
   "link-hover-color": $link-hover-color,
+  "list-group-color": $list-group-color,
+  "list-group-bg": $list-group-bg,
+  "list-group-border-color": $list-group-border-color,
+  "list-group-hover-bg": $list-group-hover-bg,
+  "list-group-active-color": $list-group-active-color,
+  "list-group-active-bg": $list-group-active-bg,
 );
 @import "../node_modules/bootstrap/scss/bootstrap";
 
